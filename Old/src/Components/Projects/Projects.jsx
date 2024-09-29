@@ -348,9 +348,8 @@ class Projects extends Component {
           <span style={{ fontWeight: "bold", color: "#fcca7b" }}>
             onRowClick -
           </span>{" "}
-          Function. You can redirect to another page by onRowClick, you can call
-          any function by onRowClick, You can also get Row Data by onRowClick
-          using "(row => console.log(row))".
+          Function. You can redirect to another page by `onRowClick`, you can call any function by `onRowClick`. 
+  You can also get row data by `onRowClick` using {'"(row => console.log(row))"'}.
         </label>
       </React.Fragment>
     );
