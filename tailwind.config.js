@@ -1,9 +1,9 @@
-const colors = require('tailwindcss/colors')
+const colors = require('tailwindcss/colors');
 
 module.exports = {
   mode: "jit",
   purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: 'media', // You can set this to 'media' or 'class' as needed
   theme: {
     fontFamily: {
       sans: ["Be Vietnam Pro", "Inter", "system-ui", "sans"],
@@ -20,7 +20,7 @@ module.exports = {
       green: colors.green,
       orange: colors.orange,
       purple: colors.purple,
-    pink: colors.pink,
+      pink: colors.pink,
     },
     extend: {
       colors: {
