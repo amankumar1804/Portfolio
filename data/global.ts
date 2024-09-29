@@ -27,10 +27,6 @@ export const routes: Route[] = [
     title: "Home",
     path: "/"
   },
-  // {
-  //   title: "Blog",
-  //   path: "/blog",
-  // },
   {
     title: "Projects",
     path: "/projects"
@@ -51,11 +47,6 @@ export const footer: Footer = {
           link: "/",
           leavesWebsite: false
         },
-        // {
-        //   name: "Blog",
-        //   link: "/blog",
-        //   leavesWebsite: false,
-        // },
         {
           name: "Projects",
           link: "/projects",
@@ -91,5 +82,10 @@ export const footer: Footer = {
         }
       ]
     }
-  ]
+  ],
+  support: {
+    buymeacoffee: "https://www.buymeacoffee.com/yourusername", // Replace with your actual link
+    paypal: "https://www.paypal.me/yourusername", // Replace with your actual link
+    message: "Support us through these platforms!"
+  }
 };
